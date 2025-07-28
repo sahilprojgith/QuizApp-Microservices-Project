@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: API-GATEWAY
+
+  cloud:
+    gateway:
+      routes:
+        - id: QUIZ-SERVICE
+          uri: lb://QUIZ-SERVICE
+          predicates:
+            - Path=/quiz/**
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
