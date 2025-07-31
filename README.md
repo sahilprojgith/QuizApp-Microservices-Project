@@ -6,11 +6,8 @@ Project Setup (Steps)
 1. Create Spring Boot Projects for Each Module
 
 API-GATEWAY
-
 QUIZ-SERVICE
-
 QUESTION-SERVICE
-
 DISCOVERY-SERVER
 
 You can use start.spring.io to generate each of these.
